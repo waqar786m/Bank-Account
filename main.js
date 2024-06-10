@@ -1,7 +1,7 @@
 import inquirer from 'inquirer';
 let totalBalance = 10000; // Dollar 
 console.log("Your balance is $10,000");
-let myPin = 1234;
+const myPin = 1234;
 async function main() {
     try {
         let pinAnswer = await inquirer.prompt([
